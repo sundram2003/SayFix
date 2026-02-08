@@ -4,23 +4,23 @@ export default function Services() {
   const services = [
     {
       title: "Full House Deep Cleaning",
-      image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=400&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=400&h=300&fit=crop&q=80",
     },
     {
       title: "Water Tank Cleaning",
-      image: "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=400&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=400&h=300&fit=crop&q=80",
     },
     {
       title: "Pest Control",
-      image: "https://images.unsplash.com/photo-1632935190605-908d21d1e594?w=400&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop&q=80",
     },
     {
       title: "Water Proofing",
-      image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=400&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?w=400&h=300&fit=crop&q=80",
     },
     {
       title: "Painting",
-      image: "https://images.unsplash.com/photo-1562259949-e8e7689d7828?w=400&h=300&fit=crop",
+      image: "https://images.unsplash.com/photo-1562259949-e8e7689d7828?w=400&h=300&fit=crop&q=80",
     },
   ];
 
@@ -60,23 +60,6 @@ export default function Services() {
           ))}
         </div>
 
-        {/* Centered fifth service */}
-        <div className="flex justify-center mb-12">
-          <div className="group max-w-sm">
-            <div className="relative overflow-hidden rounded-xl shadow-md bg-gray-100 aspect-[4/3]">
-              <Image
-                src={services[4].image}
-                alt={services[4].title}
-                fill
-                className="object-cover group-hover:scale-105 transition-transform duration-300"
-                unoptimized
-              />
-            </div>
-            <h3 className="text-lg md:text-xl font-semibold text-center text-gray-800 mt-4">
-              {services[4].title}
-            </h3>
-          </div>
-        </div>
 
         {/* Categories Banner */}
         <div className="bg-gray-900 rounded-2xl py-6 px-8 text-center">

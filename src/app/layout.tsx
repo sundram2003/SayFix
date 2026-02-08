@@ -9,12 +9,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Sayfix - Professional Cleaning & Home Services | India",
-  description: "Professional home & commercial cleaning services in India. Deep cleaning, water tank cleaning, pest control, waterproofing & painting. Call +91 7815 01 01 01",
+  title: "Sayfix",
+  description: "From Homes to Commercial Properties — Sayfix Handles It All",
   keywords: "cleaning services, deep cleaning, water tank cleaning, pest control, waterproofing, painting, home services, commercial cleaning, India",
   authors: [{ name: "Sayfix" }],
   openGraph: {
-    title: "Sayfix - Professional Cleaning & Home Services",
+    title: "From Homes to Commercial Properties — Sayfix Handles It All",
     description: "Reliable, trained professionals delivering spotless spaces every time. 20,000+ homes serviced.",
     url: "https://sayfix.com",
     siteName: "Sayfix",

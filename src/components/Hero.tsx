@@ -14,9 +14,8 @@ export default function Hero() {
         <div className="text-center max-w-4xl mx-auto">
           {/* Main Headline */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 leading-tight mb-6">
-            Professional Home
+            From Homes to Commercial Properties
             <br />
-            Cleaning Services
           </h1>
 
           {/* City Names */}
