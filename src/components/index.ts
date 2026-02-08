@@ -1,0 +1,10 @@
+export { default as Header } from "./Header";
+export { default as Hero } from "./Hero";
+export { default as WhyChoose } from "./WhyChoose";
+export { default as Services } from "./Services";
+export { default as HowItWorks } from "./HowItWorks";
+export { default as Coverage } from "./Coverage";
+export { default as Clients } from "./Clients";
+export { default as Testimonials } from "./Testimonials";
+export { default as Footer } from "./Footer";
+export { default as StickyCall } from "./StickyCall";
